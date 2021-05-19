@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="Analyst review">
+            <graphics>
+                <position x="375.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>Analyst review</value>
+                <graphics>
+                    <offset x="54.0" y="39.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Changes afrer customer review">
+            <graphics>
+                <position x="960.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>Changes afrer customer review</value>
+                <graphics>
+                    <offset x="94.0" y="49.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Changes after testing">
+            <graphics>
+                <position x="645.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>Changes after testing</value>
+                <graphics>
+                    <offset x="72.0" y="47.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Changes made">
+            <graphics>
+                <position x="375.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>Changes made</value>
+                <graphics>
+                    <offset x="57.0" y="45.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Changes price accepted">
+            <graphics>
+                <position x="195.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>Changes price accepted</value>
+                <graphics>
+                    <offset x="72.0" y="-14.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Cost estimated">
+            <graphics>
+                <position x="945.0" y="90.0"/>
+            </graphics>
+            <name>
+                <value>Cost estimated</value>
+                <graphics>
+                    <offset x="53.0" y="-13.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Customer knows estimation">
+            <graphics>
+                <position x="945.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>Customer knows estimation</value>
+                <graphics>
+                    <offset x="37.0" y="-10.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Customer order for request">
+            <graphics>
+                <position x="150.0" y="285.0"/>
+            </graphics>
+            <name>
+                <value>Customer order for request</value>
+                <graphics>
+                    <offset x="79.0" y="-9.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Customer waiting for execute changes">
+            <graphics>
+                <position x="810.0" y="450.0"/>
+            </graphics>
+            <name>
+                <value>Customer waiting for execute changes</value>
+                <graphics>
+                    <offset x="228.0" y="17.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Customer waiting for order beign processed">
+            <graphics>
+                <position x="615.0" y="285.0"/>
+            </graphics>
+            <name>
+                <value>Customer waiting for order beign processed</value>
+                <graphics>
+                    <offset x="121.0" y="39.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Designer review">
+            <graphics>
+                <position x="465.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>Designer review</value>
+                <graphics>
+                    <offset x="65.0" y="39.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Lead programmer estimate">
+            <graphics>
+                <position x="825.0" y="180.0"/>
+            </graphics>
+            <name>
+                <value>Lead programmer estimate</value>
+                <graphics>
+                    <offset x="89.0" y="44.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Programing team develop">
+            <graphics>
+                <position x="195.0" y="645.0"/>
+            </graphics>
+            <name>
+                <value>Programing team develop</value>
+                <graphics>
+                    <offset x="69.0" y="43.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Registerd order">
+            <graphics>
+                <position x="285.0" y="90.0"/>
+            </graphics>
+            <name>
+                <value>Registerd order</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Scope and amount of work specified">
+            <graphics>
+                <position x="645.0" y="90.0"/>
+            </graphics>
+            <name>
+                <value>Scope and amount of work specified</value>
+                <graphics>
+                    <offset x="103.0" y="-11.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Testers test">
+            <graphics>
+                <position x="510.0" y="645.0"/>
+            </graphics>
+            <name>
+                <value>Testers test</value>
+                <graphics>
+                    <offset x="45.0" y="52.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="Customer accepts changes">
+            <graphics>
+                <position x="1155.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>Customer accepts changes</value>
+                <graphics>
+                    <offset x="77.0" y="52.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Customer decide for changes">
+            <graphics>
+                <position x="600.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>Customer decide for changes</value>
+                <graphics>
+                    <offset x="84.0" y="-9.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Customer does not decide for changes">
+            <graphics>
+                <position x="1050.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>Customer does not decide for changes</value>
+                <graphics>
+                    <offset x="226.0" y="15.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Customer form a request">
+            <graphics>
+                <position x="60.0" y="285.0"/>
+            </graphics>
+            <name>
+                <value>Customer form a request</value>
+                <graphics>
+                    <offset x="77.0" y="47.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Customer reject changes">
+            <graphics>
+                <position x="555.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Customer reject changes</value>
+                <graphics>
+                    <offset x="-6.0" y="16.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Customer review changes">
+            <graphics>
+                <position x="810.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>Customer review changes</value>
+                <graphics>
+                    <offset x="80.0" y="46.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Develop changes">
+            <graphics>
+                <position x="195.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>Develop changes</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Estimation of the cost">
+            <graphics>
+                <position x="825.0" y="90.0"/>
+            </graphics>
+            <name>
+                <value>Estimation of the cost</value>
+                <graphics>
+                    <offset x="75.0" y="-13.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Notify the customer about estimation">
+            <graphics>
+                <position x="1050.0" y="285.0"/>
+            </graphics>
+            <name>
+                <value>Notify the customer about estimation</value>
+                <graphics>
+                    <offset x="217.0" y="20.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Register an order">
+            <graphics>
+                <position x="225.0" y="285.0"/>
+            </graphics>
+            <name>
+                <value>Register an order</value>
+                <graphics>
+                    <offset x="55.0" y="45.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Review order by analyst and designer">
+            <graphics>
+                <position x="420.0" y="90.0"/>
+            </graphics>
+            <name>
+                <value>Review order by analyst and designer</value>
+                <graphics>
+                    <offset x="108.0" y="-10.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Testing changes">
+            <graphics>
+                <position x="510.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>Testing changes</value>
+                <graphics>
+                    <offset x="66.0" y="40.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="Analyst review to Review order by analyst and designer" source="Analyst review" target="Review order by analyst and designer">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="396" y="165" curvePoint="false"/>
+            <arcpath id="001" x="432" y="117" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Changes afrer customer review to Customer accepts changes" source="Changes afrer customer review" target="Customer accepts changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="986" y="552" curvePoint="false"/>
+            <arcpath id="001" x="1161" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Changes afrer customer review to Customer reject changes" source="Changes afrer customer review" target="Customer reject changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="957" y="549" curvePoint="false"/>
+            <arcpath id="001" x="571" y="477" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Changes after testing to Customer review changes" source="Changes after testing" target="Customer review changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="671" y="552" curvePoint="false"/>
+            <arcpath id="001" x="816" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Changes made to Testing changes" source="Changes made" target="Testing changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="401" y="552" curvePoint="false"/>
+            <arcpath id="001" x="516" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Changes price accepted to Develop changes" source="Changes price accepted" target="Develop changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="207" y="416" curvePoint="false"/>
+            <arcpath id="001" x="207" y="537" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Cost estimated to Notify the customer about estimation" source="Cost estimated" target="Notify the customer about estimation">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="964" y="114" curvePoint="false"/>
+            <arcpath id="001" x="1062" y="282" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer decide for changes to Changes price accepted" source="Customer decide for changes" target="Changes price accepted">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="606" y="402" curvePoint="false"/>
+            <arcpath id="001" x="221" y="402" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer decide for changes to Customer waiting for execute changes" source="Customer decide for changes" target="Customer waiting for execute changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="616" y="407" curvePoint="false"/>
+            <arcpath id="001" x="807" y="458" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer form a request to Customer order for request" source="Customer form a request" target="Customer order for request">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="76" y="297" curvePoint="false"/>
+            <arcpath id="001" x="147" y="297" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer knows estimation to Customer decide for changes" source="Customer knows estimation" target="Customer decide for changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="942" y="401" curvePoint="false"/>
+            <arcpath id="001" x="617" y="397" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer knows estimation to Customer does not decide for changes" source="Customer knows estimation" target="Customer does not decide for changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="971" y="402" curvePoint="false"/>
+            <arcpath id="001" x="1056" y="402" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer order for request to Register an order" source="Customer order for request" target="Register an order">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="176" y="297" curvePoint="false"/>
+            <arcpath id="001" x="231" y="297" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer reject changes to Changes price accepted" source="Customer reject changes" target="Changes price accepted">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="561" y="477" curvePoint="false"/>
+            <arcpath id="001" x="221" y="405" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer review changes to Changes afrer customer review" source="Customer review changes" target="Changes afrer customer review">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="826" y="552" curvePoint="false"/>
+            <arcpath id="001" x="957" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer waiting for execute changes to Customer review changes" source="Customer waiting for execute changes" target="Customer review changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="822" y="476" curvePoint="false"/>
+            <arcpath id="001" x="822" y="537" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Customer waiting for order beign processed to Notify the customer about estimation" source="Customer waiting for order beign processed" target="Notify the customer about estimation">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="641" y="296" curvePoint="false"/>
+            <arcpath id="001" x="1057" y="292" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Designer review to Review order by analyst and designer" source="Designer review" target="Review order by analyst and designer">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="468" y="164" curvePoint="false"/>
+            <arcpath id="001" x="432" y="117" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Develop changes to Changes made" source="Develop changes" target="Changes made">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="211" y="552" curvePoint="false"/>
+            <arcpath id="001" x="372" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Develop changes to Programing team develop" source="Develop changes" target="Programing team develop">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="207" y="567" curvePoint="false"/>
+            <arcpath id="001" x="207" y="642" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Estimation of the cost to Cost estimated" source="Estimation of the cost" target="Cost estimated">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="841" y="102" curvePoint="false"/>
+            <arcpath id="001" x="942" y="102" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Estimation of the cost to Lead programmer estimate" source="Estimation of the cost" target="Lead programmer estimate">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="837" y="117" curvePoint="false"/>
+            <arcpath id="001" x="837" y="177" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Lead programmer estimate to Estimation of the cost" source="Lead programmer estimate" target="Estimation of the cost">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="837" y="177" curvePoint="false"/>
+            <arcpath id="001" x="837" y="117" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Notify the customer about estimation to Customer knows estimation" source="Notify the customer about estimation" target="Customer knows estimation">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1056" y="302" curvePoint="false"/>
+            <arcpath id="001" x="967" y="391" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Programing team develop to Develop changes" source="Programing team develop" target="Develop changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="207" y="642" curvePoint="false"/>
+            <arcpath id="001" x="207" y="567" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Register an order to Customer waiting for order beign processed" source="Register an order" target="Customer waiting for order beign processed">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="241" y="297" curvePoint="false"/>
+            <arcpath id="001" x="612" y="297" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Register an order to Registerd order" source="Register an order" target="Registerd order">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="237" y="282" curvePoint="false"/>
+            <arcpath id="001" x="292" y="116" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Registerd order to Review order by analyst and designer" source="Registerd order" target="Review order by analyst and designer">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="311" y="102" curvePoint="false"/>
+            <arcpath id="001" x="426" y="102" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Review order by analyst and designer to Analyst review" source="Review order by analyst and designer" target="Analyst review">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="432" y="117" curvePoint="false"/>
+            <arcpath id="001" x="396" y="165" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Review order by analyst and designer to Designer review" source="Review order by analyst and designer" target="Designer review">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="432" y="117" curvePoint="false"/>
+            <arcpath id="001" x="468" y="164" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Review order by analyst and designer to Scope and amount of work specified" source="Review order by analyst and designer" target="Scope and amount of work specified">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="436" y="102" curvePoint="false"/>
+            <arcpath id="001" x="642" y="102" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Scope and amount of work specified to Estimation of the cost" source="Scope and amount of work specified" target="Estimation of the cost">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="671" y="102" curvePoint="false"/>
+            <arcpath id="001" x="831" y="102" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Testers test to Testing changes" source="Testers test" target="Testing changes">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="522" y="642" curvePoint="false"/>
+            <arcpath id="001" x="522" y="567" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Testing changes to Changes after testing" source="Testing changes" target="Changes after testing">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="526" y="552" curvePoint="false"/>
+            <arcpath id="001" x="642" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Testing changes to Testers test" source="Testing changes" target="Testers test">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="522" y="567" curvePoint="false"/>
+            <arcpath id="001" x="522" y="642" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>
